@@ -1,0 +1,520 @@
+TracePoint:
+	disable                        1
+	enable                         1
+
+File:
+	set_encoding                   92
+
+Module:
+	find_unresolved_default_spec   117
+	suffixes                       117
+	const_set                      100
+	method_added                   93
+	singleton_method_added         56
+	module_function                31
+	included                       12
+	append_features                12
+	escape                         11
+	register                       9
+	autoload                       9
+	timeout                        5
+	parse_qvalues                  4
+	gem_original_require           3
+	set_close_on_exec              3
+	require                        3
+	attr_reader                    3
+	_make_regex                    3
+	format                         2
+	public                         2
+	scheme_list                    2
+	reason_phrase                  2
+	parse                          2
+	__init__                       1
+	getservername                  1
+	extended                       1
+	extend_object                  1
+	caller                         1
+	unescape                       1
+	instance_method                1
+	_make_regex!                   1
+	private                        1
+	_unescape                      1
+	normalize_path                 1
+	attr_accessor                  1
+	info?                          1
+	setup_params                   1
+	create_listeners               1
+	set_non_blocking               1
+	parse_header                   1
+	ruby                           1
+
+String:
+	gsub                           110
+	upcase                         59
+	freeze                         56
+	to_s                           24
+	downcase                       23
+	gsub!                          23
+	to_i                           19
+	is_a?                          17
+	nil?                           15
+	initialize_dup                 12
+	dup                            12
+	initialize_copy                12
+	to_str                         11
+	respond_to?                    11
+	[]                             11
+	==                             7
+	tainted?                       7
+	sub!                           5
+	bytesize                       4
+	downcase!                      3
+	strip!                         3
+	upcase!                        3
+	untaint                        2
+	===                            2
+	scan                           2
+	split                          2
+	hash                           1
+	kind_of?                       1
+	sub                            1
+	each_line                      1
+
+Hash:
+	[]=                            125
+	shift                          102
+	initialize                     8
+	delete                         5
+	keys                           5
+	each                           5
+	update                         3
+	has_key?                       3
+	initialize_dup                 2
+	initialize_copy                2
+	dup                            2
+	include?                       1
+	freeze                         1
+	delete_if                      1
+
+Object:
+	require                        113
+	gem_original_require           113
+	[]                             2
+	tracers                        1
+
+Array:
+	each                           135
+	push                           102
+	join                           15
+	object_id                      10
+	freeze                         9
+	initialize                     8
+	last                           5
+	delete_if                      5
+	collect!                       3
+	hash                           3
+	member?                        2
+	reverse!                       2
+	sort!                          2
+	sort_by                        1
+	find                           1
+	include?                       1
+	taint                          1
+	eql?                           1
+	shift                          1
+	collect                        1
+	respond_to?                    1
+	respond_to_missing?            1
+	map                            1
+
+Class:
+	method_added                   711
+	hash                           204
+	handle_interrupt               204
+	inherited                      130
+	unresolved_deps                117
+	singleton_method_added         106
+	new                            104
+	instance_variable_set          100
+	attr_reader                    51
+	initialize                     50
+	private                        42
+	attr_accessor                  32
+	===                            24
+	now                            23
+	protected                      22
+	current                        12
+	include                        11
+	instance                       10
+	register                       5
+	escape                         5
+	select                         5
+	cancel                         5
+	default_port                   4
+	start                          3
+	regist_scanner                 3
+	to_s                           3
+	convert                        3
+	add_handler                    2
+	default_scanner=               1
+	gethostname                    1
+	dirname                        1
+	join                           1
+	instance_eval                  1
+	extend                         1
+	private_class_method           1
+	instance_of?                   1
+	quote                          1
+	gethostbyname                  1
+	require                        1
+	gem_original_require           1
+	run                            1
+	getaddrinfo                    1
+	inspect                        1
+	block_given?                   1
+	get_instance                   1
+	name                           1
+	exception                      1
+
+Range:
+	include?                       179
+	===                            179
+	each                           2
+	collect                        2
+
+Fixnum:
+	<=>                            370
+	chr                            160
+	+                              28
+	divmod                         27
+	nil?                           19
+	to_s                           17
+	zero?                          5
+	to_i                           5
+	kind_of?                       2
+	==                             1
+	!=                             1
+	|                              1
+	times                          1
+	to_f                           1
+	-                              1
+	quo                            1
+	fdiv                           1
+
+Regexp:
+	=~                             14
+	!~                             8
+	===                            6
+	initialize                     4
+	freeze                         2
+	match                          1
+
+Mutex:
+	synchronize                    216
+	initialize                     5
+
+SocketError:
+	backtrace                      1
+	exception                      1
+	initialize                     1
+
+WEBrick::HTTPVersion:
+	class                          10
+	initialize                     7
+	<=>                            5
+	<                              5
+	is_a?                          3
+	to_s                           2
+	format                         2
+
+NilClass:
+	nil?                           4
+	respond_to_missing?            3
+	hash                           2
+	to_i                           1
+	to_s                           1
+	eql?                           1
+	==                             1
+
+FalseClass:
+	hash                           3
+	eql?                           1
+
+WEBrick::HTTPServer:
+	[]                             3
+	call_callback                  3
+	class                          2
+	raise                          2
+	initialize                     2
+	service                        1
+	lookup_server                  1
+	run                            1
+	search_servlet                 1
+	accept_client                  1
+	format                         1
+	access_log                     1
+	start                          1
+	sprintf                        1
+	mount                          1
+	listen                         1
+	start_thread                   1
+
+WEBrick::Log:
+	log                            24
+	format                         12
+	debug                          6
+	info                           5
+	initialize                     2
+	fatal                          1
+
+SizedQueue:
+	push                           101
+	pop                            2
+	initialize                     2
+	taint                          1
+
+ConditionVariable:
+	signal                         102
+	initialize                     2
+
+Time:
+	initialize                     23
+	strftime                       13
+	+                              5
+	year                           2
+	wday                           1
+	min                            1
+	mon                            1
+	day                            1
+	hour                           1
+	utc                            1
+	initialize_copy                1
+	initialize_dup                 1
+	dup                            1
+	httpdate                       1
+	sec                            1
+	sprintf                        1
+	-                              1
+
+IO:
+	write                          8
+	<<                             8
+
+TCPServer:
+	initialize                     2
+	fcntl                          2
+	accept                         1
+
+WEBrick::HTTPServer::MountTable:
+	normalize                      2
+	compile                        2
+	[]                             1
+	[]=                            1
+	scan                           1
+	initialize                     1
+
+Symbol:
+	==                             4
+	to_proc                        1
+	!=                             1
+
+ThreadGroup:
+	list                           1
+	add                            1
+	initialize                     1
+
+TCPSocket:
+	gets                           5
+	fcntl                          3
+	<<                             2
+	write                          2
+	peeraddr                       2
+	eof?                           2
+	respond_to?                    2
+	addr                           1
+	closed?                        1
+	do_not_reverse_lookup=         1
+	close                          1
+	sync=                          1
+
+Thread:
+	hash                           30
+	[]=                            3
+	[]                             1
+
+WEBrick::HTTPResponse:
+	keep_alive?                    3
+	chunked?                       3
+	initialize                     2
+	status=                        2
+	_write_data                    2
+	send_header                    1
+	status_line                    1
+	send_body                      1
+	send_body_string               1
+	setup_header                   1
+	send_response                  1
+	set_error                      1
+	[]=                            1
+	respond_to?                    1
+	respond_to_missing?            1
+
+WEBrick::HTTPRequest:
+	[]                             19
+	_read_data                     5
+	read_line                      5
+	keep_alive?                    4
+	body                           2
+	read_body                      2
+	initialize                     2
+	parse_uri                      1
+	setup_forwarded_info           1
+	meta_vars                      1
+	read_header                    1
+	each                           1
+	fixup                          1
+	read_request_line              1
+	parse                          1
+	port                           1
+
+WEBrick::Utils::TimeoutHandler:
+	cancel                         5
+	register                       5
+	sleep                          3
+	initialize                     1
+
+MatchData:
+	[]                             4
+
+Float:
+	-@                             1
+
+URI::Parser:
+	split                          2
+	parse                          2
+
+URI::Generic:
+	class                          2
+	set_scheme                     2
+	set_host                       2
+	set_port                       2
+	default_port                   2
+	parser                         2
+	path_query                     1
+	check_host                     1
+	check_scheme                   1
+	scheme=                        1
+	absolute?                      1
+	host=                          1
+	port=                          1
+	set_fragment                   1
+	set_registry                   1
+	set_opaque                     1
+	set_query                      1
+	set_path                       1
+	check_port                     1
+	to_s                           1
+	split_userinfo                 1
+	set_userinfo                   1
+	userinfo                       1
+	initialize                     1
+
+URI::HTTP:
+	initialize                     2
+	default_port                   2
+	class                          2
+	set_opaque                     1
+	userinfo                       1
+	set_fragment                   1
+	set_registry                   1
+	to_s                           1
+	set_query                      1
+	set_path                       1
+	set_port                       1
+	set_host                       1
+	split_userinfo                 1
+	set_userinfo                   1
+	set_scheme                     1
+	path_query                     1
+
+Rack::Handler::WEBrick:
+	initialize                     2
+	class                          1
+	service                        1
+
+Proc:
+	call                           1
+	initialize                     1
+
+StringIO:
+	initialize                     2
+	respond_to?                    1
+	set_encoding                   1
+
+Rational:
+	to_f                           1
+	/                              1
+
+WEBrick::HTTPStatus::EOFError:
+	to_s                           1
+	message                        1
+	backtrace                      1
+	initialize                     1
+
+Interrupt:
+	initialize                     3
+	backtrace                      3
+	exception                      2
+	is_a?                          1
+	respond_to_missing?            1
+	class                          1
+	message                        1
+	to_s                           1
+
+-------------
+Totals:
+	Class                           2010
+	Fixnum                          641
+	Module                          619
+	String                          459
+	Range                           362
+	Array                           311
+	Hash                            265
+	Object                          229
+	Mutex                           221
+	SizedQueue                      106
+	ConditionVariable               104
+	File                            92
+	Time                            56
+	WEBrick::Log                    50
+	WEBrick::HTTPRequest            48
+	Regexp                          35
+	WEBrick::HTTPVersion            34
+	Thread                          34
+	URI::Generic                    30
+	WEBrick::HTTPServer             24
+	TCPSocket                       23
+	WEBrick::HTTPResponse           22
+	URI::HTTP                       19
+	IO                              16
+	WEBrick::Utils::TimeoutHandler  14
+	Interrupt                       13
+	NilClass                        13
+	WEBrick::HTTPServer::MountTable 8
+	Symbol                          6
+	TCPServer                       5
+	FalseClass                      4
+	WEBrick::HTTPStatus::EOFError   4
+	StringIO                        4
+	URI::Parser                     4
+	Rack::Handler::WEBrick          4
+	MatchData                       4
+	ThreadGroup                     3
+	SocketError                     3
+	TracePoint                      2
+	Rational                        2
+	Proc                            2
+	Float                           1
+
+
+ Total Method Calls: 5906
